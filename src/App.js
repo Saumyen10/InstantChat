@@ -1,4 +1,7 @@
 import React, { useRef, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import './App.css';
 import firebase from 'firebase/compat/app'; 
 import 'firebase/compat/firestore';
@@ -32,7 +35,7 @@ function App() {
   return (
     <div className="App">
  <header>
-        <h1>⚛️💬</h1>
+        <h1><FontAwesomeIcon icon={faReact} /> <span id="hdtxt">InstantChat</span></h1> <h1>💬</h1>
         <SignOut />
       </header>
 
@@ -53,7 +56,7 @@ function SignIn() {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Do not violate the community guidelines or you will be banned for life!</p>
+      <p id="ab">Please do not violate community guidelines!</p>
     </>
   )
 
@@ -103,9 +106,9 @@ function ChatRoom() {
 
     <form onSubmit={sendMessage}>
 
-      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
+      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Type your message..." />
 
-      <button type="submit" disabled={!formValue}>🕊️</button>
+      <button type="submit" disabled={!formValue}><h1><FontAwesomeIcon icon={faArrowRight} /></h1></button>
 
     </form>
   </>)

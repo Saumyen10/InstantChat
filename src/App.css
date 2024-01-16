@@ -101,13 +101,25 @@ button:disabled {
 
 
 .sign-in {
-  color: #282c34;
+  color: rgb(13, 13, 14);
   background: white;
   max-width: 400px;
   margin: 0 auto;
 }
 
+/*self  */
+#ab {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  margin-left:100px;
+}
 
+#hdtxt {
+  font-size: 30px;
+  color:aquamarine
+}
 
 
 ul, li {
@@ -138,12 +150,12 @@ p {
 
 .sent p {
   color: white;
-  background: #0b93f6;
+  background: #02831c;
   align-self: flex-end;
 }
 .received p {
-  background: #e5e5ea;
-  color: black;
+  color: rgb(255, 255, 255);
+  background: #62aade;
 }
 
 img {
