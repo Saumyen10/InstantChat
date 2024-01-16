@@ -1,8 +1,10 @@
-Step 1: Sign-in
+𝗦𝘁𝗲𝗽 𝟭: 𝗦𝗶𝗴𝗻-𝗶𝗻
 We have to sign-in through your google accounts.
 
-Step 2: Start messaging
+𝗦𝘁𝗲𝗽 𝟮: 𝗦𝘁𝗮𝗿𝘁 𝗺𝗲𝘀𝘀𝗮𝗴𝗶𝗻𝗴
 Now we can communicate with each other keeping in mind the community rules.
+
+
 
 
 𝐋𝐚𝐧𝐝𝐢𝐧𝐠 𝐩𝐚𝐠𝐞:
