@@ -8,6 +8,12 @@ Now we can communicate with each other keeping in mind the community rules.
 
 
 
+Sign-in page:
+
+
+![auth_privacy](https://github.com/Saumyen10/InstantChat/assets/123822223/88506c95-1cd9-47c7-80c2-06fd7b70ba2b)
+
+
 
 
 𝐋𝐚𝐧𝐝𝐢𝐧𝐠 𝐩𝐚𝐠𝐞:
